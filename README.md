@@ -4,8 +4,9 @@
 <!-- keep the format -->
 ## Used crates
 <!-- keep the format -->
+- tutorial [![alt text][1]](https://webassemblyman.com/rust_webassembly_hello_world.html)
+- wasm-bindgen-cli [![alt text][1]](https://crates.io/crates/wasm-bindgen-cli)
 
-[![alt text][1]](
 <!-- keep the format -->
 > "✅" [![alt text][1]](https://www.symbolcopy.com/check-mark-symbol.html)
 <!-- keep the format -->

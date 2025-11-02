@@ -34,8 +34,22 @@ touch README.md \
 && mkdir tests
 ```
 <!-- KtF-->
-## Install WASM crates
+## Install WASM **binary** [![alt text][1]](https://crates.io/crates/wasm-bindgen-cli)
 <!-- KtF-->
+Install for Running the above command will globally install these binaries: wasm-bindgen, wasm-bindgen-test-runnerand wasm2es6js
+<!-- KtF -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+cargo install wasm-bindgen-cli
+```
+<!-- KtF -->
+## Install WASM **crates** [![alt text][1]](https://crates.io/crates/wasm-bindgen-cli)
+<!-- KtF -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+cargo add wasm-bindgen
+cargo add wasm-bindgen-cli
+```
+<!-- KtF-->
+
 <!-- -->
 <!-- keep the format -->
 >&nbsp;[!TIP] Exclude hidden files and folders in linux find [![alt text][1]](https://stackoverflow.com/questions/58895030/exclude-hidden-files-and-folders-in-linux-find)

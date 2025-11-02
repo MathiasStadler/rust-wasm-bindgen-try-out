@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 rustfmt = "0.10.0"
+wasm-bindgen = "0.2.105"
+wasm-bindgen-cli = "0.2.105"
+
+
