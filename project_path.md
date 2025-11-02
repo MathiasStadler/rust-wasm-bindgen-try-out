@@ -34,7 +34,10 @@ touch README.md \
 && mkdir tests
 ```
 <!-- KtF-->
-## Install WASM **binary** [![alt text][1]](https://crates.io/crates/wasm-bindgen-cli)
+## Install WASM binary
+
+[![alt text][1]](https://crates.io/crates/wasm-bindgen-cli)
+
 <!-- KtF-->
 Install for Running the above command will globally install these binaries: wasm-bindgen, wasm-bindgen-test-runnerand wasm2es6js
 <!-- KtF -->
@@ -43,12 +46,25 @@ cargo install wasm-bindgen-cli
 ```
 <!-- KtF -->
 ## Install WASM **crates** [![alt text][1]](https://crates.io/crates/wasm-bindgen-cli)
+
 <!-- KtF -->
+- [![alt text][1]](https://stackoverflow.com/questions/58895030/exclude-hidden-files-and-folders-in-linux-find)
+
 ```bash <!-- markdownlint-disable-line code-block-style -->
 cargo add wasm-bindgen
 cargo add wasm-bindgen-cli
 ```
 <!-- KtF-->
+## Add crate-type to Cargo.toml
+<!-- KtF -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+
+[lib]
+crate-type = ["cdylib"]
+
+
+https://stackoverflow.com/questions/65012484/is-it-possible-to-override-the-crate-type-specified-in-cargo-toml-from-the-comma
+cargo install cargo-crate-type
 
 <!-- -->
 <!-- keep the format -->
@@ -68,10 +84,7 @@ cargo add wasm-bindgen-cli
 >echo $PWD
 >EOF
 >```
-><!-- -->
 <!-- -->
-<!-- download the link sign -->
-<!-- mkdir -p img && curl --create-dirs --output-dir img -O  "https://raw.githubusercontent.com/MathiasStadler/link_symbol_svg/refs/heads/main/link_symbol.svg"-->
-<!-- Link sign - Don't Found a better way :-( - You know a better method? - send me a email -->
+
+
 [1]: ./img/link_symbol.svg
-<!-- keep the format -->
